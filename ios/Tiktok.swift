@@ -38,4 +38,8 @@ class Tiktok: UIViewController {
       }
     })
   }
+
+  @objc static func requiresMainQueueSetup() -> Bool {
+      return true
+  }
 }
